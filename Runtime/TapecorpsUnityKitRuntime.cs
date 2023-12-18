@@ -8,9 +8,9 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Collections;
 
-namespace Tapecorps.GameDevelopmentKit
+namespace TapeCorps.Runtime
 {
-    public static class GDK2{
+    public static class GDK{
 
         public static UnityEngine.Object GetObjectByName<T>(this List<T> list, string name)
         {
@@ -343,11 +343,8 @@ namespace Tapecorps.GameDevelopmentKit
 
             return result;
         }
-    }
 
-    public static class GDK
-    {
-
+        
         public static bool Coinflip => UnityEngine.Random.Range(0, 2) == 0;
         public static System.Random Random = new System.Random();
 
@@ -361,7 +358,6 @@ namespace Tapecorps.GameDevelopmentKit
         {
             return new Vector2(Mathf.LerpAngle(from.x, to.x, time), Mathf.LerpAngle(from.y, to.y, time));
         }
-
     }
 
     public static class Shape

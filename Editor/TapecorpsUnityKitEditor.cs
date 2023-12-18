@@ -6,7 +6,8 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-public static class TapecorpsUnityKitEditor{
+namespace TapeCorps.Editor{
+    public static class TapecorpsUnityKitEditor{
 
         #if UNITY_EDITOR
         public static T[] GetAllInstances<T>() where T : ScriptableObject
@@ -21,6 +22,7 @@ public static class TapecorpsUnityKitEditor{
 
             return a;
         }
-
         #endif
+    }
 }
+
