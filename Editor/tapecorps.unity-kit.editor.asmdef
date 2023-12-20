@@ -1,3 +1,16 @@
 {
-	"name": "tapecorps.unity-kit.editor"
+    "name": "tapecorps.unity-kit.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8008df6dcbdb3a4459c5f3e77e496418"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
